@@ -1,9 +1,6 @@
 import React from 'react';
 import { v4 as uuidv4 } from 'uuid';
-import {
-  Routes,
-  Route,
-} from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import TodosList from './TodosList';
 import Header from './Header';
 import InputTodo from './InputTodo';
@@ -112,4 +109,5 @@ class TodoContainer extends React.Component {
     );
   }
 }
+
 export default TodoContainer;
